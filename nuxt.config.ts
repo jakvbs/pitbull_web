@@ -1,11 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    compatibilityDate: '2024-11-01',
-    devtools: { enabled: true },
-    css: [
-        'bulma',
-        '@fortawesome/fontawesome-free/css/all.css',
-        '~/assets/css/main.css',
-    ],
-    modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxt/fonts'],
-});
+  compatibilityDate: '2024-11-01',
+  devtools: { enabled: true },
+  css: [
+    'bulma',
+    '~/assets/css/main.css',
+  ]
+})
